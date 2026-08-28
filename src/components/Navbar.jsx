@@ -48,7 +48,7 @@ export const Navbar = ({ onOpenConsultation }) => {
           >
             <div className="relative flex items-center justify-center">
               <img
-                src="/bird.png"
+                src={`${import.meta.env.BASE_URL}bird.png`}
                 alt="OriZen Logo"
                 className="h-10 sm:h-12 w-auto object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-300"
               />
@@ -139,7 +139,7 @@ export const Navbar = ({ onOpenConsultation }) => {
               <div className="flex items-center justify-between pb-5 border-b border-white/10">
                 <Link to="/" className="flex items-center gap-2.5">
                   <img
-                    src="/bird.png"
+                    src={`${import.meta.env.BASE_URL}bird.png`}
                     alt="OriZen Logo"
                     className="h-9 w-auto object-contain"
                   />
