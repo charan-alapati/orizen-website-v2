@@ -20,7 +20,7 @@ export function App() {
   const [isConsultationOpen, setIsConsultationOpen] = useState(false);
 
   return (
-    <BrowserRouter basename="/orizen-website-v2">
+    <BrowserRouter>
       <ScrollToTop />
 
       <div className="min-h-screen bg-brand-slate-bg flex flex-col text-slate-800 selection:bg-brand-orange selection:text-white">
